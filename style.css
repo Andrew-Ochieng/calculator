@@ -1,0 +1,110 @@
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.container {
+    margin: 20% 0;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0.5rem 0.8rem 1.4rem 0.5rem rgb(197, 197, 197);
+
+}
+
+.container:hover {
+    box-shadow: 0.8rem 1.2rem 2.4rem 0.8rem rgb(197, 197, 197);
+
+}
+
+.display {
+    margin: 1rem 0;
+}
+
+#results {
+    text-align: right;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    background-color: gray;
+}
+
+
+
+.number-btns {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+
+}
+
+input:hover {
+    background-color: rgb(114, 112, 112);
+    color: #fff;
+    animation-duration: 500s;
+}
+
+input {
+    padding: 1.2rem 2rem;
+    background-color: gainsboro;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+
+.operator {
+    background-color: rgb(6, 202, 202);
+
+}
+
+.operator:hover {
+    background-color: rgb(23, 143, 143);
+
+}
+
+.equals {
+    min-height: 80%;
+    background-color: deeppink;
+    grid-column: span 2 / span 2;
+
+}
+
+.equals:hover {
+    background-color: rgb(190, 13, 108);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
